@@ -82,7 +82,7 @@ flex:1;
 .active
 {
     transform:rotateX(180deg);
-    transition: 0.6s;
+    transition: 0.5s;
     transform-style: preserve-3d;
     color:#2B59C3;
 
