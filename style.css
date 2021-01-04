@@ -1,0 +1,89 @@
+body
+{
+    margin:0;
+    padding:0;
+
+}
+
+
+.background
+{
+    position:absolute;
+    top:0;
+    width:100vw;
+    height: 100vh;
+    background:#2B3A67;
+    background-image: url('space.jpg');
+    background-size: cover;
+    color:#C2B2B4;
+}
+
+.ClockContainer
+{
+    position: relative;
+    width:40em;
+    height: 20em;
+    margin:auto;
+    margin-top: 10%;
+    background:#2707226c;
+    border: #F34213 solid 0px;
+    border-radius: 1em;
+    display:flex;
+    flex-direction: column;
+}
+
+.text
+{
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.clock
+{
+    flex:1;
+    position: relative;
+    display:flex;
+
+    height: 5em;
+    margin:0 auto 10% auto ;
+}
+
+.text
+{
+flex:1;
+}
+
+.time, .timeSpace
+{
+    margin:.1em;
+    flex:1;
+    padding:.1em;
+    background:#2B59C3;
+
+    -webkit-box-shadow: 2px 2px 15px 5px #2B3A67; 
+    box-shadow: 2px 2px 15px 5px #2B3A67;
+
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .1em;
+    
+}
+
+
+
+
+
+
+
+.active
+{
+    transform:rotateX(180deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    color:#2B59C3;
+
+}
