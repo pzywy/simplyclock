@@ -106,6 +106,7 @@ function flipWholeClock()
 for(i=0; i<6;i++)
 {
     flipclock(i);
+    flipclock(i);
 }
 }
 
